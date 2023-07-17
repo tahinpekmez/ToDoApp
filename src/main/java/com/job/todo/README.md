@@ -19,3 +19,4 @@
 * Maven Build
 * Spring Security
 * JWT
+* Exceptions
