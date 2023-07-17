@@ -6,7 +6,7 @@
 
 # Couchbase
 * Couchbase is generated on docker and create account localhost:8091
-* Primary Key is generated with spring boot annotations and with query is CREATE PRIMARY INDEX ON `default`:`bucketName` 
+* Primary Key is generated with spring boot annotations and with query is CREATE PRIMARY INDEX ON `default`:`bucketName`
 
 # Using Technologies
 * spring boot 3.1.1
