@@ -32,7 +32,6 @@ public class ToDoController {
 
     }
 
-
     @GetMapping("/tasklist")
     public ResponseEntity<List<ToDoModel>> getTasks() {
         List<ToDoModel> tasklist = repository.findAll();

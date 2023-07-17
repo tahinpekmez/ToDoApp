@@ -5,12 +5,10 @@ import com.job.todo.Model.JobStatus;
 import com.job.todo.Model.ToDoModel;
 import com.job.todo.Repository.ToDoRepository;
 import com.job.todo.Request.CreateRequest;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 @RequiredArgsConstructor

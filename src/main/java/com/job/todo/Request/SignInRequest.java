@@ -3,7 +3,6 @@ package com.job.todo.Request;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
-
 @Data
 public class SignInRequest {
 

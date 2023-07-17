@@ -50,8 +50,6 @@ public class WebSecurityConfiguration { // extends WebSecurityConfigurerAdapter 
         return new AuthTokenFilter(userDetailsService, utils);
     }
 
-
-
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {
         DaoAuthenticationProvider authProvider = new DaoAuthenticationProvider();
